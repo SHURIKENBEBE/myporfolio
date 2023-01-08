@@ -1,0 +1,196 @@
+body{
+    margin:0;
+    padding: 5px; 
+    color:#8078bf;
+
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+h2{
+    display: inline;
+    float: left;
+    padding: 3px;
+    margin-left: 50px;
+    font-family: 'Seymour One', sans-serif;
+
+}
+
+h3{
+    text-shadow: -1px 1px 0 rgb(97, 23, 233),
+    1px 1px 0  rgb(97, 23, 233),
+    1px -1px 0  rgb(97, 23, 233),
+     -1px -1px 0  rgb(97, 23, 233);
+}
+
+h5{
+    font-family: 'Dosis', sans-serif;
+
+    
+}
+
+.navbar li{
+    display: block;
+    float: right;
+    margin-right: 50px;
+    padding: 3 px;
+    align-items: stretch;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Michroma', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    font-style: bolder;
+    color: #edf0f5;
+    text-shadow: -1px -2px #e0d1fa;
+    padding: 1px 1px 0;
+}
+
+a:visited{
+    text-decoration: underline;
+
+}
+
+
+a:hover{
+    cursor: crosshair ;
+    font-style: normal;
+    color: azure;
+}
+
+a:active{
+    text-decoration: underline;
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    font-weight: bold;
+    font-size: 20px;
+
+    text-align: center;
+    justify-content: center;
+
+    display: grid;
+
+    grid-template-columns: 100px 1fr 1fr; 
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 50px;
+    /* or can write as below
+    grid-template: 150px 1fr 1fr 1fr 1fr 50px; / 200px 1fr 1fr;
+
+    */
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+    background-color: #ffffff;
+}
+
+.container div{
+    padding: 10px;
+    border: 2px solid  #e0d4f7;;
+}
+
+.img-me{
+    width: 150px;
+}
+
+.git-img{
+    background-image: url('../images/flowers/flower5.jpeg');
+    background-size: cover;
+
+}
+.html-img{
+    background-image: url('../images/flowers/flower3.jpeg');
+    background-size: cover;
+}
+
+.css-img{
+    background-image: url('../images/flowers/flower2.jpeg');
+    background-size: cover;
+}
+
+.js-img{
+    background-image: url('../images/flowers/flower1.jpeg');
+    background-size: cover;
+}
+
+.node-img{
+    background-image: url('../images/flowers/flower4.jpeg');
+    background-size: cover;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #bfd4f8;
+}
+
+.content-abt{
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: #bfd4f8;
+ 
+}
+
+.content-work{
+    grid-row-start: 3;
+    grid-row-end: span 3;
+    background-color: #bfd4f8;
+
+}
+
+.content-contact{
+    grid-row-start: 6;
+    grid-row-end: span 1;
+    background-color: #bfd4f8;
+    word-wrap: break-word;
+
+}
+
+
+.content-large{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: #bfd4f8;
+    color: #effde2;
+    font-family: 'Saira', sans-serif;
+
+    
+}
+
+.content-small{
+    background-color: #bfd4f8;
+    color: #effde2;
+    font-family: 'Saira', sans-serif;
+
+}
+
+.center{
+    text-align: center;
+}
+
+.footer{
+    grid-column: 1 / span 3;
+    background-color: #bfd4f8;
+    font-size: 15px;
+    float:right;
+    font-family: 'Rubik Mono One', sans-serif;
+
+
+}
